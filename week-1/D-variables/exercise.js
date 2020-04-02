@@ -1,5 +1,5 @@
 // Start by creating a variable `greeting`
-var greeting = "Hello world";
-var greeting = "Hello world";
-var greeting = "Hello world";
-console.log(greeting);
+//var greetingOne = "Hello world";
+//var greetingTwo = "Hello world";
+//var greetingThree = "Hello world";
+console.log("Hello world\nHello world\nHello world");
