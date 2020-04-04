@@ -1,11 +1,3 @@
-/*
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
-*/
-
 let students = 15;
 let mentors = 8;
 let people = 23;
@@ -32,3 +24,39 @@ console.log(
   "Percentage mentors: " +
     roundedMentorsPercentage(mentorsPercentage(mentors, people))
 );
+
+let mentor1 = "Daniel";
+let greeting = "Hello ";
+function firstGreeting(mentor1, greeting) {
+  return greeting + mentor1;
+}
+firstGreeting(mentor1, greeting);
+console.log(firstGreeting(mentor1, greeting).toUpperCase());
+
+let mentor2 = "Irina";
+function secondGreeting(mentor2, greeting) {
+  return greeting + mentor2;
+}
+secondGreeting(mentor2, greeting);
+console.log(secondGreeting(mentor2, greeting).toUpperCase());
+
+let mentor3 = "Mimi";
+function thirdGreeting(mentor3, greeting) {
+  return greeting + mentor3;
+}
+thirdGreeting(mentor3, greeting);
+console.log(thirdGreeting(mentor3, greeting).toUpperCase());
+
+let mentor4 = "Rob";
+function fourthGreeting(mentor4, greeting) {
+  return greeting + mentor4;
+}
+fourthGreeting(mentor4, greeting);
+console.log(fourthGreeting(mentor4, greeting).toUpperCase());
+
+let mentor5 = "Yohannes";
+function fifthGreeting(mentor5, greeting) {
+  return greeting + mentor5;
+}
+fifthGreeting(mentor5, greeting);
+console.log(fifthGreeting(mentor5, greeting).toUpperCase());
