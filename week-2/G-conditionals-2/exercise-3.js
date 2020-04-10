@@ -9,23 +9,32 @@
 */
 
 function calculateGrade(mark) {
-
+  if (mark >= 80) {
+    return "A";
+  }
+  if (mark > 60) {
+    return "B";
+  }
+  if (mark <= 60 && mark > 50) {
+    return "C";
+  }
+  return "F";
 }
 
 /* 
 DO NOT EDIT BELOW THIS LINE
 --------------------------- */
-var grade1 = 49;
-var grade2 = 90;
-var grade3 = 70;
-var grade4 = 55;
+let grade1 = 49;
+let grade2 = 90;
+let grade3 = 70;
+let grade4 = 55;
 
 console.log("'" + grade1 + "': " + calculateGrade(grade1));
 console.log("'" + grade2 + "': " + calculateGrade(grade2));
 console.log("'" + grade3 + "': " + calculateGrade(grade3));
 console.log("'" + grade4 + "': " + calculateGrade(grade4));
 
-  /* 
+/* 
   EXPECTED RESULT
   ---------------
   '49': F
