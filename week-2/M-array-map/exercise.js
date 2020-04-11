@@ -9,8 +9,8 @@ function double(num) {
   return num * 2;
 }
 
-var numbers = [1, 2, 3, 4];
-var numbersDoubled; // complete this statement (use map and the double function)
+let numbers = [1, 2, 3, 4];
+let numbersDoubled = numbers.map(double);
 
 /* 
   DO NOT EDIT BELOW THIS LINE
