@@ -2,9 +2,9 @@
 // Why doesn't it work?
 // Fix it.
 
-var isHappy = "false";
+let isHappy = "false";
 
-if (isHappy) {
+if (!isHappy) {
   console.log("I am happy");
 } else {
   console.log("I am not happy");
