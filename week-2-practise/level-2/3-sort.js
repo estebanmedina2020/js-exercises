@@ -1,9 +1,9 @@
 // Update the variable `sortedLetters`.
 // It should contain the values of `letters` and `letters2` in ascending order
 
-let letters = ["a", "n", "c", "e", "z", "f"];
-let letters2 = ["w", "b", "v", "g", "l", "o"];
-let sortedLetters = letters.concat(letters2).sort(); // ONLY EDIT THIS LINE
+let letters3 = ["a", "n", "c", "e", "z", "f"];
+let letters4 = ["w", "b", "v", "g", "l", "o"];
+let sortedLetters = letters3.concat(letters4).sort(); // ONLY EDIT THIS LINE
 
 console.log(sortedLetters);
 
