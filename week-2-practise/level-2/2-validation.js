@@ -11,14 +11,10 @@ function isPositive(num) {
   return num > 0;
 }
 function isLower(num) {
-  if (num <= 100) {
-    return true;
-  } else {
-    return false;
-  }
+  return num <= 100;
 }
 function validate(num) {
-  return isNumber(num) && isPositive(num) && isLower(num) && isInteger(num);
+  return isNumber(num) && isPositive(num) && isLower(num);
 }
 
 /* 
